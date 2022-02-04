@@ -1,6 +1,6 @@
 {
   "name": "loopback-connector-remote",
-  "version": "3.4.1",
+  "version": "3.4.2",
   "description": "Remote REST API connector for Loopback",
   "main": "lib/remote-connector.js",
   "keywords": [
@@ -32,7 +32,7 @@
   },
   "homepage": "http://loopback.io",
   "dependencies": {
-    "loopback-datasource-juggler": "^3.0.0",
+    "loopback-datasource-juggler": "github:xompass/loopback-datasource-juggler#v3.36.2",
     "strong-remoting": "^3.15.0"
   },
   "devDependencies": {
@@ -48,6 +48,5 @@
     "sinon": "^6.0.0",
     "strong-task-emitter": "^0.0.8"
   },
-  "optionalDependencies": {},
   "author": "IBM Corp."
 }
